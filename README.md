@@ -27,6 +27,18 @@ Ein einfacher, sicherer Desktop-Editor für JSON-Daten, die mit einem Passwort v
     cargo build --release
     ```
 
+3.  **Starten:**
+    Das ausführbare Programm findest du unter `target/release/encrypted-json-editor`.
+    ```bash
+    ./target/release/encrypted-json-editor
+    ```
+    Optional kannst du es in deinen `PATH` kopieren:
+    ```bash
+    chmod +x target/release/encrypted-json-editor
+    cp target/release/encrypted-json-editor ~/.local/bin/
+    ```
+    Danach kannst du es einfach mit `encrypted-json-editor` im Terminal starten.
+
 ### Für andere Plattformen (Windows, macOS)
 
 1.  **Rust & Cargo installieren:** Folge den Anweisungen auf [rustup.rs](https://rustup.rs/).
